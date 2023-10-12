@@ -51,7 +51,7 @@
   --text-gradient-blue: linear-gradient(
     to right, 
   hsl(240, 100%, 50%),  /* Start color (blue) */
-  hsl(220, 100%, 50%)   /* End color (blue) */
+  hsl(210, 100%, 25%)   /* End color (blue) */
   );
 
   /* solid */
