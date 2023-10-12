@@ -1171,6 +1171,13 @@
       const subject = "Nouveau message de " + email;
       const body = "Message : " + message;
       window.location.href = "mailto:abdelilah.lamhamdi@outlook.com?subject=" + subject + "&body=" + body;
+      // Affichez la confirmation d'envoi.
+      document.getElementById("confirmation").style.display = "block";
+
+      // Réinitialisez le formulaire.
+        document.getElementById("fullname").value = "";
+      document.getElementById("email").value = "";
+      document.getElementById("message").value = "";
     });
   </script>
 
