@@ -1157,28 +1157,7 @@
             <button class="form-btn" type="submit" disabled data-form-btn>
               <ion-icon name="paper-plane"></ion-icon>
               <span>Send Message</span>
-                <script>
-    document.getElementById("contactForm").addEventListener("submit", function (event) {
-      event.preventDefault(); // Empêche la soumission par défaut du formulaire.
-
-      // Récupérez les valeurs du formulaire.
-      const fullname = document.getElementById("fullname").value;
-      const email = document.getElementById("email").value;
-      const message = document.getElementById("message").value;
-
-      // Utilisez JavaScript pour envoyer un e-mail (ceci est un exemple simple).
-      const subject = "Nouveau message de " + email;
-      const body = "Message : " + message;
-      window.location.href = "mailto:abdelilah.lamhamdi@outlook.com?subject=" + subject + "&body=" + body;
-      // Affichez la confirmation d'envoi.
-      document.getElementById("confirmation").style.display = "block";
-
-      // Réinitialisez le formulaire.
-        document.getElementById("fullname").value = "";
-      document.getElementById("email").value = "";
-      document.getElementById("message").value = "";
-    });
-  </script>
+      
             </button>
           
           </form>
